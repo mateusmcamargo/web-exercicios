@@ -1,0 +1,132 @@
+* {
+  font-family: "Comfortaa", cursive;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #98ffd4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 32px;
+}
+
+h1 {
+  margin-bottom: 32px;
+  color: #333;
+}
+
+p > span {
+  font-weight: bold;
+  color: #333;
+  background-color: #98ffd4;
+  padding: 0 4px;
+}
+
+span.js {
+  color: #ffd341;
+}
+
+span.OO {
+  color: #4fbeff;
+}
+
+span#p6-span {
+  color: #85ffcc;
+  background-color: white;
+  margin-left: 4px;
+}
+
+p {
+  color: #444;
+}
+
+ul {
+  margin: 8px 0 32px 0;
+  padding: 0;
+  list-style-type: none;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+li#li1 {
+  display: block;
+}
+
+p.box {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 32px 0;
+}
+
+p.m {
+  margin-bottom: 32px;
+}
+
+p#p6 {
+  margin: 8px 0 32px 0;
+  padding: 2px 8px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 32px;
+  width: 50%;
+  border: 2px solid #f0f0f0;
+}
+
+a {
+  color: white;
+  background-color: #4fbeff;
+  padding: 0 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+input {
+  height: 32px;
+  width: 50%;
+  border: 2px solid #f0f0f0;
+  transition: 0.2s ease;
+  padding: 2px 8px;
+}
+
+input#cb3 {
+  height: 23px;
+  width: 16px;
+  margin: 0 16px 0 0;
+}
+
+input:focus {
+  outline: none;
+  border-color: #e2e2e2;
+  color: #444;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  font-size: 14px;
+  margin-left: 16px;
+  padding: 0 12px;
+  background-color: #98ffd4;
+  font-weight: 700;
+  color: #333333;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #85ffcc;
+  color: #111;
+}/*# sourceMappingURL=01-revisao-js-exercicios.css.map */

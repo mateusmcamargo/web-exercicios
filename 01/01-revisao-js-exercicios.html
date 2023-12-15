@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Exercícios sobre JS, ES6, Contexto e OO</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./01-revisao-js-exercicios.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Exercícios sobre <span class="js">JS</span>, <span class="js">ES6</span>, Contexto e <span class="OO">OO</span></h1>
+      
+      <p><span>Exercício 1:</span> implemente uma função que ao clicar no botão exercício 1 a seguir, insira o valor do input como um elemento li no elemento ul a seguir. Utilize o conceito de <a href="http://es6-features.org/#StringInterpolation">string interpolation</a></p>
+      <p class="box">
+        <input  id="ip1"value="" type="text" />
+        <button id="bt1">exercício 1</button>
+      </p>
+      <ul       id="ex1"></ul>
+
+      <p><span>Exercício 2:</span> implemente uma função que atualize o valor do elemento li, enquanto o usuário digita. Utilize o evento keyup ou keydown.</p>
+      <p class="box">
+        <input id="ip2" type="text" />
+      </p>
+      <ul      id="ex2"></ul>
+
+      <p><span>Exercício 3:</span> implemente uma função que receba como parâmetro um vetor com os seguintes valores de tipo String: abacate, uva, maracujá, mamão, cereja, jaboticaba, jaca, guaraná. Para cada elemento do vetor, deve ser gerado um elemento li com o valor da String; e inserido no elemento ul a seguir. Utilize o método forEach do Array.</p>
+      <ul      id="ul3"></ul>
+
+      <p><span>Exercício 4:</span> Extenda o exercício anterior, mas no elemento input, deve ser implementada uma função de busca pelas Strings que começarem com as mesmas letras inseridas no input. Utilize o método filter do Array.</p>
+      <p class="box">
+        <input id ="ip4" type="text" />
+      </p>
+      <ul      id="ex4"></ul>
+
+      <p class="m"><span>Exercício 5:</span> extenda o exercício anterior, armazene os valores do vetor dentro de objetos JavaScript com as propriedades nome como valor da String e checked como um booleano de valor false. O valor da variável booleana deve ser apresentado em um checkbox dentro do elemento li. Se o checkbox for clicado, o checkbox deve ser checado e o valor tem que ser refletido no vetor de valores (como uma TodoList). Utilize o método map do Array.</p>
+
+      <p><span>Exercício 6:</span> extenda o exercício anterior, e apresente o elemento p a seguir o número de elementos do vetor que foram checados. Utilize o método filter ou reduce do Array.</p>
+
+      <p id="p6">Número de elementos checados: <span id="p6-span">0</span></p>
+
+      <p class="m"><span>Exercício 7:</span> encapsule toda a lógica dos exercícios anteriores (3-6) dentro de uma classe, utilizando o conceito de closures ou classes do ES6. Implemente uma funcionalidade de inserção de novos elementos na lista.</p>
+    </div><!--container-->
+
+    <script src="./01-revisao-js-exercicios.js"></script>
+  </body>
+</html>

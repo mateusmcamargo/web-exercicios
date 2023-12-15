@@ -1,0 +1,142 @@
+$main:  #98ffd4;
+$input: #f0f0f0;
+$hover: #85ffcc;
+$focus: #e2e2e2;
+$text:  #111;
+$text2: #333;
+$text3: #444;
+$js:    #ffd341;
+$OO:    #4fbeff;
+
+* {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: $main;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 32px;
+}
+
+h1 {
+    margin-bottom: 32px;
+    color: $text2;
+}
+
+p > span {
+    font-weight: bold;
+    color: $text2;
+    background-color: $main;
+    padding: 0 4px;
+}
+
+span.js {
+    color: $js;
+}
+
+span.OO {
+    color: $OO;
+}
+span#p6-span {
+    color: $hover;
+    background-color: white;
+    margin-left: 4px;
+}
+
+
+p {
+    color: $text3;
+}
+
+ul {
+    margin: 8px 0 32px 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+}
+
+li#li1 {
+    display: block;
+}
+
+p.box {
+    display: flex;
+    align-items: center;
+    margin: 8px 0 32px 0;
+}
+
+p.m {
+    margin-bottom: 32px;
+}
+p#p6 {
+    margin: 8px 0 32px 0;
+    padding: 2px 8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 32px;
+    width: 50%;
+    border: 2px solid $input;
+    
+}
+
+a {
+    color: white;
+    background-color: $OO;
+    padding: 0 4px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+input {
+    height: 32px;
+    width: 50%;
+    border: 2px solid $input;
+    transition: .2s ease;
+    padding: 2px 8px;
+}
+
+input#cb3 {
+    height: 23px;
+    width: 16px;
+    margin: 0 16px 0 0;
+}
+
+input:focus {
+    outline: none;
+    border-color: $focus;
+    color: $text3;
+}
+button {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    font-size: 14px;
+    margin-left: 16px;
+    padding: 0 12px;
+    background-color: $main;
+    font-weight: 700;
+    color: #333333;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+button:hover {
+    background-color: $hover;
+    color: $text;
+}
